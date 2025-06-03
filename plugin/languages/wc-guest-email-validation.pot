@@ -52,7 +52,7 @@ msgid "Invalid email address."
 msgstr ""
 
 #: includes/class-wc-guest-email-validation-ajax.php:XX
-msgid "This email is already registered. Please log in."
+msgid "This email is already registered. Please log in or use different email address."
 msgstr ""
 
 #: templates/admin-settings.php:XX

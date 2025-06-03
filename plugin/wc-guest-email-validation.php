@@ -79,7 +79,6 @@ class WC_Guest_Email_Validation {
      */
     private function __construct() {
         $this->init_hooks();
-        $this->init_classes();
     }
     
     /**
@@ -106,6 +105,7 @@ class WC_Guest_Email_Validation {
         }
         
         $this->load_dependencies();
+        $this->init_classes();
     }
     
     /**
@@ -165,10 +165,6 @@ class WC_Guest_Email_Validation {
      * Initialize classes
      */
     private function init_classes() {
-        if (!$this->is_woocommerce_active()) {
-            return;
-        }
-        
         $this->admin = new WC_Guest_Email_Validation_Admin();
         $this->frontend = new WC_Guest_Email_Validation_Frontend();
         $this->ajax = new WC_Guest_Email_Validation_Ajax();

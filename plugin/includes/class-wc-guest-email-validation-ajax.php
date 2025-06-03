@@ -61,6 +61,6 @@ class WC_Guest_Email_Validation_Ajax {
             return wp_kses_post($custom_message);
         }
         
-        return __('This email is already registered. Please log in.', WC_GEV_TEXT_DOMAIN);
+        return __('This email is already registered. Please log in or use different email address.', WC_GEV_TEXT_DOMAIN);
     }
 }
