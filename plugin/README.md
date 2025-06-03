@@ -1,6 +1,6 @@
 # WooCommerce Guest Email Validation Plugin
 
-A professional WordPress plugin that prevents guest checkout when the email address already belongs to an existing customer. Fully compatible with WooCommerce Block Checkout and multilingual sites.
+WordPress plugin that prevents guest checkout when the email address already belongs to an existing customer. Fully compatible with WooCommerce Block Checkout and multilingual sites.
 
 ## Features
 
