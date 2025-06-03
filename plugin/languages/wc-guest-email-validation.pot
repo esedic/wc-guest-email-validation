@@ -1,0 +1,208 @@
+# WooCommerce Guest Email Validation
+# Copyright (C) 2024
+# This file is distributed under the same license as the WooCommerce Guest Email Validation package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Guest Email Validation 1.0.0\n"
+"Report-Msgid-Bugs-To: https://yourwebsite.com/\n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+
+#: wc-guest-email-validation.php:XX
+msgid "WooCommerce Guest Email Validation requires %s to be installed and active."
+msgstr ""
+
+#: wc-guest-email-validation.php:XX
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-admin.php:XX
+msgid "Guest Email Validation"
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-admin.php:XX
+msgid "Email Validation"
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-admin.php:XX
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-frontend.php:XX
+msgid "An account with this email address already exists. Please <a href=\"%s\">log in</a> to continue with your order."
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-frontend.php:XX
+msgid "An account with this email address already exists. Please log in to continue."
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-ajax.php:XX
+msgid "Invalid nonce."
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-ajax.php:XX
+msgid "Invalid email address."
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-ajax.php:XX
+msgid "This email is already registered. Please log in."
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "WooCommerce Guest Email Validation Settings"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Enable Validation"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Prevent guest checkout with existing customer emails"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "When enabled, guests will not be able to place orders using email addresses that belong to existing customers."
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Show Login Link"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Include login link in error message"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "When enabled, the error message will include a link to the login page."
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Real-time Validation"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Enable real-time email validation"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "When enabled, email addresses will be validated in real-time as the user types (with debouncing)."
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Custom Error Message"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Leave empty to use default message"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Custom error message to display when validation fails. Leave empty to use the default message. HTML is allowed."
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Default message:"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Save Settings"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Plugin Information"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Version:"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Compatibility:"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "WooCommerce Block Checkout"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Classic Checkout"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Multilingual Sites"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "HPOS Compatible"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "How It Works"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Guest user enters email at checkout"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "Plugin checks if email belongs to existing customer"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "If match found, checkout is prevented"
+msgstr ""
+
+#: templates/admin-settings.php:XX
+msgid "User is prompted to log in instead"
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-settings.php:XX
+msgid "Guest Email Validation Settings"
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-settings.php:XX
+msgid "Configure how guest email validation works on your checkout page."
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-settings.php:XX
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-settings.php:XX
+msgid "Advanced configuration options for developers and power users."
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-settings.php:XX
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-settings.php:XX
+msgid "Enable debug logging"
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-settings.php:XX
+msgid "When enabled, validation events will be logged for debugging purposes."
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-settings.php:XX
+msgid "AJAX Timeout"
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-settings.php:XX
+msgid "Timeout in milliseconds for real-time validation requests"
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-settings.php:XX
+msgid "Debounce Delay"
+msgstr ""
+
+#: includes/class-wc-guest-email-validation-settings.php:XX
+msgid "Delay in milliseconds before checking email (prevents too many requests)"
+msgstr ""
