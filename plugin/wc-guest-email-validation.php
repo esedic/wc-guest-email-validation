@@ -2,19 +2,19 @@
 /**
  * Plugin Name: WooCommerce Guest Email Validation
  * Plugin URI: https://spletodrom.si/
- * Description: Prevents guest checkout when email address already belongs to an existing customer. Supports multilingual sites.
+ * Description: Prevents guest checkout when email address already belongs to an existing customer.
  * Version: 1.0.0
  * Author: Elvis Sedić
  * Author URI: https://spletodrom.si/
  * Text Domain: wc-guest-email-validation
  * Domain Path: /languages
+ * License: GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Requires at least: 5.0
  * Tested up to: 6.5
  * Requires PHP: 7.4
  * WC requires at least: 5.0
  * WC tested up to: 8.5
- * License: GPL v2 or later
- * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 // Prevent direct access
